@@ -30,6 +30,13 @@
 @pink:                  #c3325f;
 @purple:                #7a43b6;
 
+@bannerLight:           #56d456;
+@bannerDark:            #319531;
+@bannerText:            #ccffcc;
+
+@pocketSquare:          #6647b1;
+@pocketCellLight:       #b4a6d9;
+@pocketCellDark:        #806dac;
 
 // Scaffolding
 // -------------------------
@@ -39,7 +46,7 @@
 
 // Links
 // -------------------------
-@linkColor:             #08c;
+@linkColor:             @pocketSquare;
 @linkColorHover:        darken(@linkColor, 15%);
 
 
@@ -145,13 +152,13 @@
 // Navbar
 // -------------------------
 @navbarHeight:                    40px;
-@navbarBackground:                @grayDarker;
-@navbarBackgroundHighlight:       @grayDark;
+@navbarBackground:                @bannerDark;
+@navbarBackgroundHighlight:       @bannerLight;
 
-@navbarText:                      @grayLight;
-@navbarLinkColor:                 @grayLight;
+@navbarText:                      @bannerText;
+@navbarLinkColor:                 @bannerText;
 @navbarLinkColorHover:            @white;
-@navbarLinkColorActive:           @navbarLinkColorHover;
+@navbarLinkColorActive:           @bannerText;
 @navbarLinkBackgroundHover:       transparent;
 @navbarLinkBackgroundActive:      @navbarBackground;
 
